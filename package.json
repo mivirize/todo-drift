@@ -1,0 +1,26 @@
+{
+  "name": "todo-drift",
+  "version": "1.0.0",
+  "description": "Find stale TODO/FIXME/HACK comments using git blame age",
+  "type": "module",
+  "bin": {
+    "todo-drift": "./src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test __tests__/todo-drift.test.mjs"
+  },
+  "keywords": [
+    "todo",
+    "fixme",
+    "hack",
+    "stale",
+    "git-blame",
+    "technical-debt",
+    "cli",
+    "lint"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
